@@ -202,6 +202,7 @@
 		1893485C1D10465F00825CDA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YLS;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = yulingsong;
 				TargetAttributes = {
@@ -414,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = scrollViewDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yulingsong.scrollViewDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = scrollViewDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yulingsong.scrollViewDelegate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +499,7 @@
 				189348931D10465F00825CDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		189348941D10465F00825CDA /* Build configuration list for PBXNativeTarget "scrollViewDelegateTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +508,7 @@
 				189348961D10465F00825CDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		189348971D10465F00825CDA /* Build configuration list for PBXNativeTarget "scrollViewDelegateUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +517,7 @@
 				189348991D10465F00825CDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
